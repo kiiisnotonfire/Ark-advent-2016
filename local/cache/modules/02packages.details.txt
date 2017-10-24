@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   995
-Last-Updated: Tue Oct 24 10:41:17 2017
+Line-Count:   1015
+Last-Updated: Tue Oct 24 16:28:08 2017
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Algorithm::Diff                  1.1903  T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
@@ -28,6 +28,7 @@ Class::C3                          0.33  H/HA/HAARG/Class-C3-0.33.tar.gz
 Class::C3::Componentised       1.001000  F/FR/FREW/Class-C3-Componentised-1.001000.tar.gz
 Class::C3::Componentised::ApplyHooks undef  F/FR/FREW/Class-C3-Componentised-1.001000.tar.gz
 Class::Data::Inheritable           0.08  T/TM/TMTM/Class-Data-Inheritable-0.08.tar.gz
+Class::Factory::Util                1.7  D/DR/DROLSKY/Class-Factory-Util-1.7.tar.gz
 Class::Inspector                   1.32  P/PL/PLICEASE/Class-Inspector-1.32.tar.gz
 Class::Inspector::Functions        1.32  P/PL/PLICEASE/Class-Inspector-1.32.tar.gz
 Class::Method::Modifiers           2.12  E/ET/ETHER/Class-Method-Modifiers-2.12.tar.gz
@@ -57,6 +58,18 @@ Data::Dumper::Concise::Sugar      2.023  E/ET/ETHER/Data-Dumper-Concise-2.023.ta
 Data::Page                         2.02  L/LB/LBROCARD/Data-Page-2.02.tar.gz
 DateTime                           1.44  D/DR/DROLSKY/DateTime-1.44.tar.gz
 DateTime::Duration                 1.44  D/DR/DROLSKY/DateTime-1.44.tar.gz
+DateTime::Format::Builder          0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Builder::Parser  0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Builder::Parser::Dispatch 0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Builder::Parser::generic 0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Builder::Parser::Quick 0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Builder::Parser::Regex 0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Builder::Parser::Strptime 0.81  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Fall            undef  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::Simple          undef  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
+DateTime::Format::SQLite           0.11  C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
+DateTime::Format::Strptime         1.74  D/DR/DROLSKY/DateTime-Format-Strptime-1.74.tar.gz
+DateTime::Format::Strptime::Types  1.74  D/DR/DROLSKY/DateTime-Format-Strptime-1.74.tar.gz
 DateTime::Helpers                  1.44  D/DR/DROLSKY/DateTime-1.44.tar.gz
 DateTime::Infinite                 1.44  D/DR/DROLSKY/DateTime-1.44.tar.gz
 DateTime::Infinite::Future         1.44  D/DR/DROLSKY/DateTime-1.44.tar.gz
@@ -739,10 +752,16 @@ namespace::autoclean               0.28  E/ET/ETHER/namespace-autoclean-0.28.tar
 namespace::clean                   0.27  R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 oo                                undef  H/HA/HAARG/Moo-2.003002.tar.gz
 ouse                              undef  G/GF/GFUJI/Mouse-v2.4.10.tar.gz
+Package::DeprecationManager        0.17  D/DR/DROLSKY/Package-DeprecationManager-0.17.tar.gz
 Package::Stash                     0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
 Package::Stash::PP                 0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
 Package::Stash::XS                 0.28  D/DO/DOY/Package-Stash-XS-0.28.tar.gz
 Package::Variant               1.003002  M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
+Params::Util                       1.07  A/AD/ADAMK/Params-Util-1.07.tar.gz
+Params::Validate                   1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::Constants        1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::PP               1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::XS               1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
 Params::ValidationCompiler         0.24  D/DR/DROLSKY/Params-ValidationCompiler-0.24.tar.gz
 Params::ValidationCompiler::Compiler 0.24  D/DR/DROLSKY/Params-ValidationCompiler-0.24.tar.gz
 Params::ValidationCompiler::Exceptions 0.24  D/DR/DROLSKY/Params-ValidationCompiler-0.24.tar.gz
@@ -904,6 +923,7 @@ strictures::extra                 undef  H/HA/HAARG/strictures-2.000003.tar.gz
 Sub::Defer                     2.004000  H/HA/HAARG/Sub-Quote-2.004000.tar.gz
 Sub::Exporter::Progressive     0.001013  F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz
 Sub::Identify                      0.14  R/RG/RGARCIA/Sub-Identify-0.14.tar.gz
+Sub::Install                      0.928  R/RJ/RJBS/Sub-Install-0.928.tar.gz
 Sub::Name                          0.21  E/ET/ETHER/Sub-Name-0.21.tar.gz
 Sub::Quote                     2.004000  H/HA/HAARG/Sub-Quote-2.004000.tar.gz
 Sub::Uplevel                     0.2800  D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
