@@ -1736,3 +1736,135 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Tue Oct 24 10:15:31 2017: C<Module> L<Git::Version::Compare|Git::Version::Compare>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Oct 24 10:15:32 2017: C<Module> L<IPC::Run|IPC::Run>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.96>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Oct 24 10:15:32 2017: C<Module> L<System::Command|System::Command>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.118>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Oct 24 10:15:33 2017: C<Module> L<Git::Repository|Git::Repository>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.321>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Oct 24 10:15:37 2017: C<Module> L<Devel::PPPort|Devel::PPPort>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.36>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Oct 24 10:15:41 2017: C<Module> L<GitDDL|GitDDL>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

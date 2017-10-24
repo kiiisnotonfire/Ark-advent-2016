@@ -927,6 +927,19 @@ DISTRIBUTIONS
       perl 5.008004
       strict 0
       warnings 0
+  Devel-CheckCompiler-0.07
+    pathname: S/SY/SYOHEX/Devel-CheckCompiler-0.07.tar.gz
+    provides:
+      Devel::AssertC99 undef
+      Devel::CheckCompiler 0.07
+    requirements:
+      Exporter 0
+      ExtUtils::CBuilder 0
+      File::Temp 0
+      Module::Build::Tiny 0.035
+      Test::More 0.98
+      parent 0
+      perl 5.008001
   Devel-GlobalDestruction-0.14
     pathname: H/HA/HAARG/Devel-GlobalDestruction-0.14.tar.gz
     provides:
@@ -935,6 +948,12 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Sub::Exporter::Progressive 0.001011
       perl 5.006
+  Devel-PPPort-3.36
+    pathname: W/WO/WOLFSAGE/Devel-PPPort-3.36.tar.gz
+    provides:
+      Devel::PPPort 3.36
+    requirements:
+      ExtUtils::MakeMaker 0
   Devel-StackTrace-2.02
     pathname: D/DR/DROLSKY/Devel-StackTrace-2.02.tar.gz
     provides:
@@ -1070,6 +1089,54 @@ DISTRIBUTIONS
       perl 5.008
       strict 0
       warnings 0
+  Git-Repository-1.321
+    pathname: B/BO/BOOK/Git-Repository-1.321.tar.gz
+    provides:
+      Git::Repository 1.321
+      Git::Repository::Command 1.321
+      Git::Repository::Plugin 1.321
+      Test::Git 1.321
+    requirements:
+      Carp 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      Git::Version::Compare 1.001
+      IO::Handle 0
+      Scalar::Util 0
+      System::Command 1.118
+      Test::Builder 0
+      namespace::clean 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Git-Version-Compare-1.004
+    pathname: B/BO/BOOK/Git-Version-Compare-1.004.tar.gz
+    provides:
+      Git::Version::Compare 1.004
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
+      strict 0
+      warnings 0
+  GitDDL-0.03
+    pathname: T/TY/TYPESTER/GitDDL-0.03.tar.gz
+    provides:
+      GitDDL 0.03
+    requirements:
+      DBI 0
+      ExtUtils::MakeMaker 6.36
+      File::Path 2.07
+      Git::Repository 0
+      Mouse 0
+      SQL::Translator 0.11016
+      Test::Git 0
+      Test::More 0.86
   Hash-Merge-0.200
     pathname: R/RE/REHSACK/Hash-Merge-0.200.tar.gz
     provides:
@@ -1078,6 +1145,19 @@ DISTRIBUTIONS
       Clone 0
       ExtUtils::MakeMaker 0
       perl 5.008001
+  IPC-Run-0.96
+    pathname: T/TO/TODDR/IPC-Run-0.96.tar.gz
+    provides:
+      IPC::Run 0.96
+      IPC::Run::Debug 0.96
+      IPC::Run::IO 0.96
+      IPC::Run::Timer 0.96
+      IPC::Run::Win32Helper 0.96
+      IPC::Run::Win32IO 0.96
+      IPC::Run::Win32Pump 0.96
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
   Import-Into-1.002005
     pathname: H/HA/HAARG/Import-Into-1.002005.tar.gz
     provides:
@@ -1221,6 +1301,21 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-Build-XSUtil-0.16
+    pathname: H/HI/HIDEAKIO/Module-Build-XSUtil-0.16.tar.gz
+    provides:
+      Module::Build::XSUtil 0.16
+    requirements:
+      Devel::CheckCompiler 0
+      Devel::PPPort 0
+      Exporter 0
+      ExtUtils::CBuilder 0
+      File::Basename 0
+      File::Path 0
+      Module::Build 0.4005
+      XSLoader 0
+      parent 0
+      perl 5.008005
   Module-Find-0.13
     pathname: C/CR/CRENZ/Module-Find-0.13.tar.gz
     provides:
@@ -1301,6 +1396,44 @@ DISTRIBUTIONS
       Sub::Defer 2.003001
       Sub::Quote 2.003001
       perl 5.006
+  Mouse-v2.4.10
+    pathname: G/GF/GFUJI/Mouse-v2.4.10.tar.gz
+    provides:
+      Mouse v2.4.10
+      Mouse::Exporter undef
+      Mouse::Meta::Attribute undef
+      Mouse::Meta::Class undef
+      Mouse::Meta::Method undef
+      Mouse::Meta::Method::Accessor undef
+      Mouse::Meta::Method::Constructor undef
+      Mouse::Meta::Method::Delegation undef
+      Mouse::Meta::Method::Destructor undef
+      Mouse::Meta::Module undef
+      Mouse::Meta::Role undef
+      Mouse::Meta::Role::Application undef
+      Mouse::Meta::Role::Application::RoleSummation undef
+      Mouse::Meta::Role::Composite undef
+      Mouse::Meta::Role::Method undef
+      Mouse::Meta::TypeConstraint undef
+      Mouse::Object undef
+      Mouse::PurePerl undef
+      Mouse::Role v2.4.10
+      Mouse::Spec v2.4.10
+      Mouse::TypeRegistry undef
+      Mouse::Util v2.4.10
+      Mouse::Util::MetaRole undef
+      Mouse::Util::TypeConstraints undef
+      Squirrel undef
+      Squirrel::Role undef
+      Test::Mouse undef
+      ouse undef
+    requirements:
+      ExtUtils::CBuilder 0
+      Module::Build 0.4005
+      Module::Build::XSUtil 0.16
+      Scalar::Util 1.14
+      XSLoader 0.02
+      perl 5.008005
   Package-Stash-0.37
     pathname: D/DO/DOY/Package-Stash-0.37.tar.gz
     provides:
@@ -1665,6 +1798,28 @@ DISTRIBUTIONS
     requirements:
       Carp 0
       ExtUtils::MakeMaker 6.17
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  System-Command-1.118
+    pathname: B/BO/BOOK/System-Command-1.118.tar.gz
+    provides:
+      System::Command 1.118
+      System::Command::Reaper 1.118
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      IO::Handle 0
+      IO::Select 0
+      IPC::Run 0
+      List::Util 0
+      POSIX 0
+      Scalar::Util 0
+      Symbol 0
       constant 0
       perl 5.006
       strict 0
