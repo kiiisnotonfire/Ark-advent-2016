@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1015
-Last-Updated: Tue Oct 24 16:28:08 2017
+Line-Count:   1016
+Last-Updated: Tue Oct 24 16:54:53 2017
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Algorithm::Diff                  1.1903  T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
@@ -652,6 +652,7 @@ ExtUtils::Helpers::Windows        0.026  L/LE/LEONT/ExtUtils-Helpers-0.026.tar.g
 ExtUtils::InstallPaths            0.011  L/LE/LEONT/ExtUtils-InstallPaths-0.011.tar.gz
 File::ShareDir                    1.104  R/RE/REHSACK/File-ShareDir-1.104.tar.gz
 File::ShareDir::Install            0.11  E/ET/ETHER/File-ShareDir-Install-0.11.tar.gz
+FindBin::libs                      2.12  L/LE/LEMBARK/FindBin-libs-2.15.tar.gz
 Git::Repository                   1.321  B/BO/BOOK/Git-Repository-1.321.tar.gz
 Git::Repository::Command          1.321  B/BO/BOOK/Git-Repository-1.321.tar.gz
 Git::Repository::Plugin           1.321  B/BO/BOOK/Git-Repository-1.321.tar.gz

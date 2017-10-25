@@ -481,6 +481,12 @@ DISTRIBUTIONS
       Class::Accessor::Chained::Fast 0
       Test::Exception 0
       Test::More 0
+  Data-Section-Simple-0.07
+    pathname: M/MI/MIYAGAWA/Data-Section-Simple-0.07.tar.gz
+    provides:
+      Data::Section::Simple 0.07
+    requirements:
+      ExtUtils::MakeMaker 6.30
   DateTime-1.44
     pathname: D/DR/DROLSKY/DateTime-1.44.tar.gz
     provides:
@@ -2077,6 +2083,27 @@ DISTRIBUTIONS
       Exporter 0
       ExtUtils::MakeMaker 0
       perl 5.006
+  Text-MicroTemplate-0.24
+    pathname: K/KA/KAZUHO/Text-MicroTemplate-0.24.tar.gz
+    provides:
+      Text::MicroTemplate 0.24
+      Text::MicroTemplate::EncodedString 0.24
+      Text::MicroTemplate::File undef
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      File::Temp 0
+      Test::More 0
+      perl 5.00800
+  Text-MicroTemplate-DataSection-0.01
+    pathname: T/TY/TYPESTER/Text-MicroTemplate-DataSection-0.01.tar.gz
+    provides:
+      Text::MicroTemplate::DataSection 0.01
+      Text::MicroTemplate::DataSectionEx 0.01
+    requirements:
+      Data::Section::Simple 0
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.94
+      Text::MicroTemplate 0.13
   Try-Tiny-0.28
     pathname: E/ET/ETHER/Try-Tiny-0.28.tar.gz
     provides:
