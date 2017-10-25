@@ -1,6 +1,5 @@
 package Jobeet::Controller;
 use Ark 'Controller';
-use Jobeet::Models;
 
 # default 404 handler
 sub default :Path :Args {
@@ -23,4 +22,4 @@ sub end :Private {
     }
 }
 
-__PACKAGE__->meta->make_immutable;
+1;

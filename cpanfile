@@ -6,3 +6,7 @@ requires 'Path::Class';
 requires 'DateTime::Format::SQLite';
 requires 'FindBin::libs';
 requires 'Text::MicroTemplate::DataSectionEx';
+requires 'Text::MicroTemplate';
+requires 'Text::MicroTemplate::Extended';
+requires 'Ark::View::MT';
+requires 'String::CamelCase';

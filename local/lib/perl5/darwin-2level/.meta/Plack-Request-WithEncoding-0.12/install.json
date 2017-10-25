@@ -1,0 +1,1 @@
+{"pathname":"M/MO/MOZNION/Plack-Request-WithEncoding-0.12.tar.gz","version":"0.12","dist":"Plack-Request-WithEncoding-0.12","provides":{"Plack::Request::WithEncoding":{"file":"lib/Plack/Request/WithEncoding.pm","version":"0.12"}},"name":"Plack::Request::WithEncoding","target":"Plack::Request::WithEncoding"}
