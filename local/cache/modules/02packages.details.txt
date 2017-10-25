@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1374
-Last-Updated: Wed Oct 25 11:16:09 2017
+Line-Count:   1375
+Last-Updated: Wed Oct 25 16:39:01 2017
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Algorithm::Diff                  1.1903  T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
@@ -1218,6 +1218,7 @@ Stream::Buffered::File            undef  D/DO/DOY/Stream-Buffered-0.03.tar.gz
 Stream::Buffered::PerlIO          undef  D/DO/DOY/Stream-Buffered-0.03.tar.gz
 strictures                     2.000003  H/HA/HAARG/strictures-2.000003.tar.gz
 strictures::extra                 undef  H/HA/HAARG/strictures-2.000003.tar.gz
+String::CamelCase                 undef  H/HI/HIO/String-CamelCase-0.03.tar.gz
 Sub::Defer                     2.004000  H/HA/HAARG/Sub-Quote-2.004000.tar.gz
 Sub::Exporter::Progressive     0.001013  F/FR/FREW/Sub-Exporter-Progressive-0.001013.tar.gz
 Sub::Identify                      0.14  R/RG/RGARCIA/Sub-Identify-0.14.tar.gz

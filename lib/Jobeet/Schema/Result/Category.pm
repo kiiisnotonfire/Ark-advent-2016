@@ -3,6 +3,7 @@ use v5.20.3;
 use strict;
 use warnings;
 use parent 'Jobeet::Schema::ResultBase';
+use String::CamelCase qw(decamelize);
 
 sub get_active_jobs {
     my $self = shift;
@@ -16,6 +17,24 @@ sub get_active_jobs {
             rows     => $attr->{rows},
         }
     );
+}
+
+sub insert {
+    my $self = shift;
+
+    $self->slug( decamelize $self->name );
+
+    $self->next::method(@_);
+}
+
+sub update {
+    my $self = shift;
+
+    if ($self->is_column_changed('name')) {
+        $self->slug( decamelize $self->name );
+    }
+
+    $self->next::method(@_);
 }
 
 __PACKAGE__->table('jobeet_category');
@@ -34,10 +53,16 @@ __PACKAGE__->add_columns(
         size        => 255,
         is_nullable => 0,
     },
+    slug => {
+        data_type   => 'VARCHAR',
+        size        => 255,
+        is_nullable => 1,
+    },
 );
 
 __PACKAGE__->set_primary_key('id');
 __PACKAGE__->add_unique_constraint(['name']);
+__PACKAGE__->add_unique_constraint(['slug']);
 __PACKAGE__->has_many( jobs => 'Jobeet::Schema::Result::Job', 'category_id' );
 __PACKAGE__->has_many(
     category_affiliate => 'Jobeet::Schema::Result::CategoryAffiliate', 'category_id', {

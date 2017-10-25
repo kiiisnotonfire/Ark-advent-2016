@@ -2880,3 +2880,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Wed Oct 25 16:39:03 2017: C<Module> L<Data::Page::Navigation|Data::Page::Navigation>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/imai-kichi/workspace/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

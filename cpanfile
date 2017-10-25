@@ -10,3 +10,4 @@ requires 'Text::MicroTemplate';
 requires 'Text::MicroTemplate::Extended';
 requires 'Ark::View::MT';
 requires 'String::CamelCase';
+requires 'Data::Page::Navigation';

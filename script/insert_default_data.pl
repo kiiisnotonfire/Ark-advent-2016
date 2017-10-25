@@ -3,7 +3,6 @@ use warnings;
 use FindBin::libs;
 
 use Jobeet::Models;
-use DateTime;
 
 my $job_rs = models('Schema::Job');
 my $cat_rs = models('Schema::Category');
@@ -24,4 +23,3 @@ for my $i (100 .. 130) {
         email        => 'job@example.com',
     });
 }
-
