@@ -1,5 +1,7 @@
 ? extends 'common/jobs_base';
 
+?= include('job/_partial_jobs', $category->get_active_jobs({ rows => $max_rows }));
+
 <!-- some HTML code -->
 
         <h1>
