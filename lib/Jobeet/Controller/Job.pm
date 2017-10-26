@@ -1,5 +1,6 @@
 package Jobeet::Controller::Job;
 use Ark 'Controller';
+with 'Ark::ActionClass::Form';
 
 use Jobeet::Models;
 
@@ -32,6 +33,12 @@ sub edit :Chained('job') :PathPart :Args(0) {
 # /job/{job_token}/delete （削除）
 sub delete :Chained('job') :PathPart :Args(0) {
     my ($self, $c) = @_;
+}
+
+sub create :Local :Form('Jobeet::Form::Job') {
+    my ($self, $c) = @_;
+
+    $c->stash->{form} = $self->form;
 }
 
 1;
