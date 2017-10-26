@@ -1,11 +1,6 @@
 ? my $category = $c->stash->{category};
 
-? extends 'common/base';
-
-? block stylesheets => sub {
-<link rel="stylesheet" type="text/css" href="<?= $c->uri_for('/css/main.css') ?>" />
-<link rel="stylesheet" type="text/css" href="<?= $c->uri_for('/css/jobs.css') ?>" />
-? }
+? extends 'common/jobs_base';
 
 ? block title => sub { sprintf 'Jobs in the %s category', $category->name };
 

@@ -1,3 +1,5 @@
+? extends 'common/jobs_base';
+
 <!-- some HTML code -->
 
         <h1>
