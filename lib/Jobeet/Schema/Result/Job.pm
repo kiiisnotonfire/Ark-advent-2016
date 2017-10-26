@@ -4,12 +4,21 @@ use strict;
 use warnings;
 use parent 'Jobeet::Schema::ResultBase';
 use Jobeet::Models;
+use Digest::SHA1 qw/sha1_hex/;
+use Data::UUID;
+
 
 sub insert {
     my $self = shift;
 
     $self->expires_at( models('Schema')->now->add( days => models('conf')->{active_days} ) );
     $self->next::method(@_);
+    $self->token( sha1_hex(Data::UUID->new->create) );
+}
+
+sub publish {
+    my ($self) = @_;
+    $self->update({ is_activated => 1 });
 }
 
 __PACKAGE__->table('jobeet_job');
