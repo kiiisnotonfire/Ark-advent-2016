@@ -7,7 +7,7 @@ use Jobeet::Models;
 sub index :Path {
     my ($self, $c) = @_;
 
-    $c->stash->{categories} = models('Schema::Category')->get_with_jobs;   
+    $c->stash->{jobs} = models('Schema::Job');
 }
 
 # /job/{job_token} （詳細）
@@ -69,11 +69,11 @@ sub publish :Chained('job') :PathPart {
 
 sub create :Local :Form('Jobeet::Form::Job') {
     my ($self, $c) = @_;
-
+  
     if ($c->req->method eq 'POST' and $self->form->submitted_and_valid) {
         my $job = models('Schema::Job')->create_from_form($self->form);
         $c->redirect( $c->uri_for('/job', $job->token) );
-    }
+    }  
 }
 
 1;
